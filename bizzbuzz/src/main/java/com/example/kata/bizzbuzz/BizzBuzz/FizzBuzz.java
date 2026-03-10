@@ -29,5 +29,9 @@ public class FizzBuzz {
         return result;
 
     }
-
+    public void print (){
+        for (int i = MIN_VALUE; i<= MAX_VALUE;i++){
+            System.out.println(calculate(i));
+        }
+    }
 }
